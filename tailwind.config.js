@@ -2,7 +2,17 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Nunito", "sans-serif"],
+      },
+      colors: {
+        primary: "#02274f",
+        secondary: "#fdcf05",
+        grey: "#FAFAFA",
+        "grey-l": "#FFFFFF",
+      },
+    },
   },
   plugins: [],
 };
