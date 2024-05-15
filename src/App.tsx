@@ -1,5 +1,7 @@
+import RoutesMain from "./routes";
+
 function App() {
-  return <div className="">B2BIT</div>;
+  return <RoutesMain />;
 }
 
 export default App;
