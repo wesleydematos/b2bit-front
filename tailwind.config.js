@@ -11,6 +11,7 @@ export default {
         secondary: "#fdcf05",
         grey: "#FAFAFA",
         "grey-l": "#FFFFFF",
+        "grey-d": "#F1F1F1",
       },
     },
   },
