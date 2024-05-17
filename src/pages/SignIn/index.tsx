@@ -3,8 +3,8 @@ import { ErrorMessage, Formik } from "formik";
 import { Errors } from "./types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
-import toast, { Toaster } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 import logo from "../../assets/logo.png";
 import api from "../../services/axiosConfig";
 
@@ -137,7 +137,6 @@ export default function SignIn() {
                 "Sign In"
               )}
             </button>
-            <Toaster />
           </form>
         )}
       </Formik>
