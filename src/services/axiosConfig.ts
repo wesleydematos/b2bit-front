@@ -10,7 +10,11 @@ const api = axios.create({
 
 api.interceptors.request.use(
   (config) => {
-    config.headers.Authorization = localStorage.getItem("@Token-b2bit");
+    const token = localStorage.getItem("@Token-b2bit");
+
+    if (config.url !== "/auth/login/" && token) {
+      config.headers.Authorization = `Bearer ${JSON.parse(token)}`;
+    }
 
     return config;
   },
