@@ -21,11 +21,11 @@
 :heavy_check_mark: Faça o clone do projeto em sua máquina
 
 :heavy_check_mark: Rode o Script para instalar as dependências:
-`npm install`
+`npm install --force`
 
-:heavy_check_mark: Após feito o clone e instalada as dependências crie um arquivo ".env" com as variáveis presentes no arquivo ".env.example" adicione a URL base da aplicação backend como valor da váriavel VITE_REACT_API_URL do arquivo ".env" criado.
+:heavy_check_mark: Após feito o clone e instalada as dependências crie um arquivo ".env" com as variáveis presentes no arquivo ".env.example" adicione a URL base da aplicação backend enviada por email como valor da váriavel VITE_REACT_API_URL do arquivo ".env" criado.
 
-:heavy_check_mark: Para fazera aplicação rodar localmente utilize o seguinte comando:
+:heavy_check_mark: Para fazera aplicação rodar localmente (http://localhost:5173/) utilize o seguinte comando:
 `npm run dev`
 
 :heavy_check_mark: TESTES: caso queira realizar os testes presentes na aplicação, garanta que todos os passos anteriores tenha sido executado corretamente e que a aplicação esteja rodando na URL "http://localhost:5173/", feito isso, em um novo terminal, utilize o seguinte comando:
